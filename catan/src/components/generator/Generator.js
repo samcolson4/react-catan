@@ -19,7 +19,7 @@ class GeneratorLogic {
 
 function Generator() {
 
-  var hexes = ["wheat", "wheat", "wheat", "wheat", "ore", "ore", "ore", "brick", "brick", "brick", "sheep", "sheep", "sheep", "sheep", "lumber", "lumber", "lumber", "lumber", "desert"]
+  let hexes = ["wheat", "wheat", "wheat", "wheat", "ore", "ore", "ore", "brick", "brick", "brick", "sheep", "sheep", "sheep", "sheep", "lumber", "lumber", "lumber", "lumber", "desert"]
 
   let numbers = [5, 2, 6, 3, 8, 10, 9, 12, 11, 4, 8, 10, 9, 4, 5, 6, 3, 11]
 
@@ -30,6 +30,7 @@ function Generator() {
   return (
     <div className="Generator">
       <p>Where the map will go</p>
+      { generator.numbers[0] }, { generator.numbers[1] }
     </div>
   )}
 
