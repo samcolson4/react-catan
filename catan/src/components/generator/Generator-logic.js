@@ -24,6 +24,10 @@ class GeneratorLogic {
   allocateNumbers() {
     this.boardNumbers = this.numbers
     this.shuffle(this.boardNumbers)
+
+    var robberIndex = this.boardHexes.indexOf("desert")
+    this.boardNumbers.splice(robberIndex, 0, "Robber")
+  
     return this.boardNumbers
   }
 
