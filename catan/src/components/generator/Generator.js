@@ -2,7 +2,6 @@
 import GeneratorLogic from './Generator-logic.js'
 import './generator.css'
 
-
 function Generator() {
 
   let hexes = ["wheat", "wheat", "wheat", "wheat", "ore", "ore", "ore", "brick", "brick", "brick", "sheep", "sheep", "sheep", "sheep", "lumber", "lumber", "lumber", "lumber", "desert"]
@@ -18,11 +17,9 @@ function Generator() {
 
   return (
     <div className="Generator">
-      {/* <div>
-        <button onClick={ generator.makeMap() }>
-          Generate
-        </button>
-      </div> */}
+      <p>Hit refresh to generate a new map.</p>
+      <br></br>
+      <br></br>
 
       <div id="row_one">
         <p> 
@@ -67,6 +64,7 @@ function Generator() {
           { generator.boardHexes[18] } [{ generator.boardNumbers[18] }] 
         </p>
       </div>
+      <br></br>
     </div>
   )}
 
