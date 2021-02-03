@@ -1,9 +1,11 @@
+import './header.css'
+
 function Header() {
   return (
     <div className="Header-div">
       <header className="Header">
         <h1>
-          This is a header.
+          Catan Board Generator
         </h1>
       </header>
     </div>
