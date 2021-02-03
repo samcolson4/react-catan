@@ -1,6 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './Header.js'
+import Header from './header/Header.js'
 
 function App() {
   return (
