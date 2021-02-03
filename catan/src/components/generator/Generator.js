@@ -1,5 +1,7 @@
 // import React, { component } from 'react'
 import GeneratorLogic from './Generator-logic.js'
+import './generator.css'
+
 
 function Generator() {
 
@@ -26,9 +28,9 @@ function Generator() {
       <div id="row_two">
         <p> 
           { generator.boardHexes[3] } [{ generator.boardNumbers[3] }],  
-          { generator.boardHexes[4] } [{ generator.boardNumbers[4] }], 
+          { generator.boardHexes[4] } [{ generator.boardNumbers[4] }],  
           { generator.boardHexes[5] } [{ generator.boardNumbers[5] }],
-          { generator.boardHexes[6] } [{ generator.boardNumbers[6] }],
+          { generator.boardHexes[6] } [{ generator.boardNumbers[6] }]
         </p>
       </div>
     </div>
