@@ -12,18 +12,17 @@ function Generator() {
   let ports = ["sheep", "lumber", "ore", "wheat", "three", "three", "three", "three"]
 
   let generator = new GeneratorLogic(hexes, numbers, ports)
-  generator.allocateHexes()
-  generator.allocateNumbers()
+  // generator.allocateHexes()
+  // generator.allocateNumbers()
+  generator.makeMap()
 
   return (
     <div className="Generator">
-      <div>
-      <button onClick={generator.allocateHexes}>
-
-      Generate
-      </button>
-
-      </div>
+      {/* <div>
+        <button onClick={ generator.makeMap() }>
+          Generate
+        </button>
+      </div> */}
 
       <div id="row_one">
         <p> 

@@ -15,10 +15,10 @@ class GeneratorLogic {
     }
   }
 
-  // makeMap() {
-  //   this.allocateHexes
-  //   this.allocateNumbers
-  // }
+  makeMap() {
+    this.allocateHexes()
+    this.allocateNumbers()
+  }
 
   allocateHexes() {
     this.boardHexes = this.hexes
@@ -31,7 +31,7 @@ class GeneratorLogic {
     this.shuffle(this.boardNumbers)
 
     var robberIndex = this.boardHexes.indexOf("desert")
-    this.boardNumbers.splice(robberIndex, 0, "Robber")
+    this.boardNumbers.splice(robberIndex, 0, "ROBBER")
   
     return this.boardNumbers
   }
