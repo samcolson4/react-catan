@@ -1,3 +1,5 @@
+import GeneratorLogic from './Generator-logic.js'
+
 function Generator() {
   return (
     <div className="Generator">
