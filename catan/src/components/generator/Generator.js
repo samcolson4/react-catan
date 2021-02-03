@@ -29,7 +29,7 @@ function Generator() {
 
   return (
     <div className="Generator">
-      <p>Where the board will go</p>
+      <p>Where the map will go</p>
     </div>
   )}
 
