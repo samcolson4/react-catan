@@ -1,21 +1,5 @@
-class GeneratorLogic {
-  
-  constructor(hexes, numbers, ports) {
-    this.hexes = hexes
-    this.numbers = numbers
-    this.ports = ports
-  }
-
-  // function shuffle(array) {
-  //   array.sort(() => Math.random() - 0.5);
-  // }
-
-  // allocateHexes() {
-  //   shuffle(this.hexes)
-  // }
-
-
-}
+import React, { component } from 'react'
+import GeneratorLogic from './Generator-logic.js'
 
 function Generator() {
 
@@ -30,7 +14,8 @@ function Generator() {
   return (
     <div className="Generator">
       <p>Where the map will go</p>
-      { generator.numbers[0] }, { generator.numbers[1] }
+      <p> { generator.numbers[0] }, { generator.numbers[1] } </p>
+      <p> { generator.allocateHexes() } </p>
     </div>
   )}
 
