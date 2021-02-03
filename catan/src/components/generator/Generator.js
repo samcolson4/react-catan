@@ -1,4 +1,4 @@
-import React, { component } from 'react'
+// import React, { component } from 'react'
 import GeneratorLogic from './Generator-logic.js'
 
 function Generator() {
@@ -10,12 +10,13 @@ function Generator() {
   let ports = ["sheep", "lumber", "ore", "wheat", "three", "three", "three", "three"]
 
   let generator = new GeneratorLogic(hexes, numbers, ports)
+  generator.allocateHexes()
 
   return (
     <div className="Generator">
-      <p>Where the map will go</p>
-      <p> { generator.numbers[0] }, { generator.numbers[1] } </p>
-      <p> { generator.allocateHexes() } </p>
+      <div id="row_one">
+        <p> { generator.boardHexes[0] }, { generator.boardHexes[1] }, { generator.boardHexes[2] } </p>
+      </div>
     </div>
   )}
 

@@ -4,6 +4,7 @@ class GeneratorLogic {
     this.hexes = hexes
     this.numbers = numbers
     this.ports = ports
+    this.boardHexes = []
   }
 
   shuffle(array) {
@@ -14,9 +15,13 @@ class GeneratorLogic {
   }
 
   allocateHexes() {
-    let newHexes = this.shuffle(this.hexes)
-    console.log(newHexes)
-    return newHexes
+    this.boardHexes = this.hexes
+    this.shuffle(this.boardHexes)
+    return this.boardHexes
+  }
+
+  allocateNumbers() {
+    
   }
 
 }
