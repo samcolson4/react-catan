@@ -5,6 +5,7 @@ class GeneratorLogic {
     this.numbers = numbers
     this.ports = ports
     this.boardHexes = []
+    this.boardNumbers = []
   }
 
   shuffle(array) {
@@ -21,7 +22,9 @@ class GeneratorLogic {
   }
 
   allocateNumbers() {
-    
+    this.boardNumbers = this.numbers
+    this.shuffle(this.boardNumbers)
+    return this.boardNumbers
   }
 
 }
