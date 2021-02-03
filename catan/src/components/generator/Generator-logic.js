@@ -15,6 +15,11 @@ class GeneratorLogic {
     }
   }
 
+  // makeMap() {
+  //   this.allocateHexes
+  //   this.allocateNumbers
+  // }
+
   allocateHexes() {
     this.boardHexes = this.hexes
     this.shuffle(this.boardHexes)

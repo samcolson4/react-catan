@@ -17,6 +17,14 @@ function Generator() {
 
   return (
     <div className="Generator">
+      <div>
+      <button onClick={generator.allocateHexes}>
+
+      Generate
+      </button>
+
+      </div>
+
       <div id="row_one">
         <p> 
           { generator.boardHexes[0] } [{ generator.boardNumbers[0] }],  
