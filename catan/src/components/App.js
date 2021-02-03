@@ -1,5 +1,6 @@
 import Header from './header/Header.js'
 import Generator from './generator/Generator.js'
+import About from './about/About.js'
 import './app.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <Generator />
+      <About />
     </div>
   )}
 
