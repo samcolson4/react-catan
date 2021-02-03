@@ -6,6 +6,15 @@ class GeneratorLogic {
     this.ports = ports
   }
 
+  // function shuffle(array) {
+  //   array.sort(() => Math.random() - 0.5);
+  // }
+
+  // allocateHexes() {
+  //   shuffle(this.hexes)
+  // }
+
+
 }
 
 function Generator() {
