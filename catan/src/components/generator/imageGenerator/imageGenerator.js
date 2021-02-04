@@ -2,7 +2,9 @@ import GeneratorLogic from '../Generator-logic.js'
 
 function ImageGenerator() {
 
-  let hexes = ["wheat", "wheat", "wheat", "wheat", "ore", "ore", "ore", "brick", "brick", "brick", "sheep", "sheep", "sheep", "sheep", "lumber", "lumber", "lumber", "lumber", "desert"]
+  let wheat = '../../public/hexes/wheat.jpg'
+
+  let hexes = [<img src={wheat} />, "wheat", "wheat", "wheat", "ore", "ore", "ore", "brick", "brick", "brick", "sheep", "sheep", "sheep", "sheep", "lumber", "lumber", "lumber", "lumber", "desert"]
 
   let numbers = [5, 2, 6, 3, 8, 10, 9, 12, 11, 4, 8, 10, 9, 4, 5, 6, 3, 11]
 
@@ -18,11 +20,9 @@ function ImageGenerator() {
       <br></br>
 
       <div id="row_one">
-        <p> 
           { generator.boardHexes[0] } [{ generator.boardNumbers[0] }],  
           { generator.boardHexes[1] } [{ generator.boardNumbers[1] }], 
           { generator.boardHexes[2] } [{ generator.boardNumbers[2] }] 
-        </p>
       </div>
       
       <div id="row_two">
