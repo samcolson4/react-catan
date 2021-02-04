@@ -3,15 +3,17 @@ import './imageGenerator.css'
 import wheatImp from './hexes/wheat.png'
 import brickImp from './hexes/brick.png'
 import desertImp from './hexes/desert.png'
+import lumberImp from './hexes/lumber.png'
 
 function ImageGenerator() {
 
   let wheat = <img src={wheatImp} />
   let brick = <img src={brickImp} />
   let desert = <img src={desertImp} />
+  let lumber = <img src={lumberImp} />
 
 
-  let hexes = [wheat, wheat, wheat, wheat, "ore", "ore", "ore", brick, brick, brick, brick, "sheep", "sheep", "sheep", "sheep", "lumber", "lumber", "lumber", "lumber", desert]
+  let hexes = [wheat, wheat, wheat, wheat, "ore", "ore", "ore", brick, brick, brick, brick, "sheep", "sheep", "sheep", "sheep", lumber, lumber, lumber, lumber, desert]
 
   let numbers = [5, 2, 6, 3, 8, 10, 9, 12, 11, 4, 8, 10, 9, 4, 5, 6, 3, 11]
 
