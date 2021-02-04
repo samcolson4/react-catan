@@ -9,6 +9,7 @@ import oreImp from './hexes/ore.png'
 import sheepImp from './hexes/sheep.png'
 
 import twoImp from './numbers/two.png'
+import threeImp from './numbers/three.png'
 
 function ImageGenerator() {
 
@@ -20,10 +21,13 @@ function ImageGenerator() {
   let sheep = <img src={sheepImp} />
 
   let two = <img src={twoImp} />
+  let three = <img src={threeImp} />
+
 
   let hexes = [wheat, wheat, wheat, ore, ore, ore, brick, brick, brick, brick, sheep, sheep, sheep, sheep, lumber, lumber, lumber, lumber, desert]
 
-  let numbers = [5, two, 6, 3, 8, 10, 9, 12, 11, 4, 8, 10, 9, 4, 5, 6, 3, 11]
+  let numbers = [5, 2, 6, 3, 8, 10, 9, 12, 11, 4, 8, 10, 9, 4, 5, 6, 3, 11]
+  let num_imgs = [5, two, 6, three, 8, 10, 9, 12, 11, 4, 8, 10, 9, 4, 5, 6, three, 11]
 
   let ports = ["sheep", "lumber", "ore", "wheat", "three", "three", "three", "three"]
 
