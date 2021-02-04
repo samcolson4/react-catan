@@ -4,12 +4,15 @@ import ImageGenerator from './generator/imageGenerator/imageGenerator.js'
 import About from './about/About.js'
 import './app.css'
 
+let text = <TextGenerator />
+let images = <ImageGenerator />
+
 function App() {
   return (
     <div className="App">
       <Header />
-      <TextGenerator />
-      <ImageGenerator />
+      { text }
+      { images }
       <About />
     </div>
   )}
