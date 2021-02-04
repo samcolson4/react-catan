@@ -17,3 +17,8 @@ img {
   align-items: center;
   text-align: center;
 }
+
+.number_img {
+  height: 1em;
+  width: auto;
+}
