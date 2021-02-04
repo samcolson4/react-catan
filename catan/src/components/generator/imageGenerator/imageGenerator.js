@@ -23,7 +23,7 @@ function ImageGenerator() {
 
   let ports = ["sheep", "lumber", "ore", "wheat", "three", "three", "three", "three"]
 
-  let generator = new GeneratorLogic(hexes, numbers, ports, "desert", "robber")
+  let generator = new GeneratorLogic(hexes, numbers, ports, desert, "robber")
   generator.makeMap()
 
   return (
