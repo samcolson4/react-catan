@@ -16,7 +16,7 @@ function Generator() {
   generator.makeMap()
 
   return (
-    <div className="Generator">
+    <div className="Generator-Text">
       <p>Hit refresh to generate a new map.</p>
       <br></br>
       <br></br>
