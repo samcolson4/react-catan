@@ -1,6 +1,7 @@
 img {
   height: 150px;
   width: auto;
+  display: inline-block;
 }
 
 .Generator-images {
@@ -12,6 +13,7 @@ img {
 }
 
 .row {
-  display: flex;
+  display: block;
   align-items: center;
+  text-align: center;
 }
