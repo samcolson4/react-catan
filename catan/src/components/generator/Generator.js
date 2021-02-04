@@ -10,7 +10,7 @@ function Generator() {
 
   let ports = ["sheep", "lumber", "ore", "wheat", "three", "three", "three", "three"]
 
-  let generator = new GeneratorLogic(hexes, numbers, ports)
+  let generator = new GeneratorLogic(hexes, numbers, ports, "desert", "robber")
   generator.makeMap()
 
   return (
