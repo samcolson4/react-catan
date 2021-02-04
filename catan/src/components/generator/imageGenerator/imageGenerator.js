@@ -4,6 +4,8 @@ import wheatImp from './hexes/wheat.png'
 import brickImp from './hexes/brick.png'
 import desertImp from './hexes/desert.png'
 import lumberImp from './hexes/lumber.png'
+import oreImp from './hexes/ore.png'
+import sheepImp from './hexes/sheep.png'
 
 function ImageGenerator() {
 
@@ -11,9 +13,11 @@ function ImageGenerator() {
   let brick = <img src={brickImp} />
   let desert = <img src={desertImp} />
   let lumber = <img src={lumberImp} />
+  let ore = <img src={oreImp} />
+  let sheep = <img src={sheepImp} />
 
 
-  let hexes = [wheat, wheat, wheat, wheat, "ore", "ore", "ore", brick, brick, brick, brick, "sheep", "sheep", "sheep", "sheep", lumber, lumber, lumber, lumber, desert]
+  let hexes = [wheat, wheat, wheat, wheat, ore, ore, ore, brick, brick, brick, brick, sheep, sheep, sheep, sheep, lumber, lumber, lumber, lumber, desert]
 
   let numbers = [5, 2, 6, 3, 8, 10, 9, 12, 11, 4, 8, 10, 9, 4, 5, 6, 3, 11]
 
