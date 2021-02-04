@@ -1,8 +1,7 @@
-// import React, { component } from 'react'
-import GeneratorLogic from './Generator-logic.js'
+import GeneratorLogic from '../Generator-logic.js'
 import './generator.css'
 
-function Generator() {
+function TextGenerator() {
 
   let hexes = ["wheat", "wheat", "wheat", "wheat", "ore", "ore", "ore", "brick", "brick", "brick", "sheep", "sheep", "sheep", "sheep", "lumber", "lumber", "lumber", "lumber", "desert"]
 
@@ -66,4 +65,4 @@ function Generator() {
     </div>
   )}
 
-export default Generator;
+export default TextGenerator;
