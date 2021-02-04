@@ -1,10 +1,12 @@
 import GeneratorLogic from '../Generator-logic.js'
+import wheatImp from './hexes/wheat.jpg'
 
 function ImageGenerator() {
 
-  let wheat = '../../public/hexes/wheat.jpg'
+  let wheat = <img src={wheatImp} />
 
-  let hexes = [<img src={wheat} />, "wheat", "wheat", "wheat", "ore", "ore", "ore", "brick", "brick", "brick", "sheep", "sheep", "sheep", "sheep", "lumber", "lumber", "lumber", "lumber", "desert"]
+
+  let hexes = [wheat, "wheat", "wheat", "wheat", "ore", "ore", "ore", "brick", "brick", "brick", "sheep", "sheep", "sheep", "sheep", "lumber", "lumber", "lumber", "lumber", "desert"]
 
   let numbers = [5, 2, 6, 3, 8, 10, 9, 12, 11, 4, 8, 10, 9, 4, 5, 6, 3, 11]
 
