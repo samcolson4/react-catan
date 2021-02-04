@@ -11,8 +11,6 @@ function Generator() {
   let ports = ["sheep", "lumber", "ore", "wheat", "three", "three", "three", "three"]
 
   let generator = new GeneratorLogic(hexes, numbers, ports)
-  // generator.allocateHexes()
-  // generator.allocateNumbers()
   generator.makeMap()
 
   return (
