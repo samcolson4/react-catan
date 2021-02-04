@@ -1,4 +1,5 @@
 import GeneratorLogic from '../Generator-logic.js'
+import './imageGenerator.css'
 import wheatImp from './hexes/wheat.png'
 import brickImp from './hexes/brick.png'
 import desertImp from './hexes/desert.png'
