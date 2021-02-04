@@ -6,3 +6,12 @@ img {
 .Generator-images {
   align-items: center;
 }
+
+#board {
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
