@@ -1,12 +1,12 @@
 import GeneratorLogic from '../Generator-logic.js'
-import wheatImp from './hexes/wheat.jpg'
+import wheatImp from './hexes/wheat.png'
 
 function ImageGenerator() {
 
   let wheat = <img src={wheatImp} />
 
 
-  let hexes = [wheat, "wheat", "wheat", "wheat", "ore", "ore", "ore", "brick", "brick", "brick", "sheep", "sheep", "sheep", "sheep", "lumber", "lumber", "lumber", "lumber", "desert"]
+  let hexes = [wheat, wheat, wheat, wheat, "ore", "ore", "ore", "brick", "brick", "brick", "sheep", "sheep", "sheep", "sheep", "lumber", "lumber", "lumber", "lumber", "desert"]
 
   let numbers = [5, 2, 6, 3, 8, 10, 9, 12, 11, 4, 8, 10, 9, 4, 5, 6, 3, 11]
 
@@ -16,7 +16,7 @@ function ImageGenerator() {
   generator.makeMap()
 
   return (
-    <div className="Generator-Text">
+    <div className="Generator-images">
       <p>Hit refresh to generate a new map.</p>
       <br></br>
       <br></br>

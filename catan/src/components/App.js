@@ -8,6 +8,7 @@ let text = <TextGenerator />
 let images = <ImageGenerator />
 
 function App() {
+
   return (
     <div className="App">
       <Header />
