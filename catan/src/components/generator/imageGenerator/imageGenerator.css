@@ -21,4 +21,19 @@ img {
 .number_img {
   height: 3em;
   width: auto;
+  position: absolute;
+  top: -5.5em;
+  left: 4.5em;
+}
+
+.hex-parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.hex {
+  position: relative;
+  top: 0;
+  left: 0;
 }
