@@ -22,12 +22,12 @@ import twelveImp from './numbers/twelve.png'
 
 function ImageGenerator() {
 
-  let wheat = <img src={wheatImp} class="hex"/>
-  let brick = <img src={brickImp} class="hex"/>
-  let desert = <img src={desertImp} class="hex"/>
-  let lumber = <img src={lumberImp} class="hex"/>
-  let ore = <img src={oreImp} class="hex"/>
-  let sheep = <img src={sheepImp} class="hex"/>
+  let wheat = <img src={wheatImp} alt="wheat" class="hex"/>
+  let brick = <img src={brickImp} alt="brick" class="hex"/>
+  let desert = <img src={desertImp} alt="desert" class="hex"/>
+  let lumber = <img src={lumberImp} alt="lumber" class="hex"/>
+  let ore = <img src={oreImp} alt="ore" class="hex"/>
+  let sheep = <img src={sheepImp} alt="sheep" class="hex"/>
 
   let two = <img src={twoImp} class="number_img"/>
   let three = <img src={threeImp} class="number_img"/>
