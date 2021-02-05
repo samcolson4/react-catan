@@ -58,14 +58,21 @@ img {
 
 #port_two {
   position: absolute;
-  top: -12.9em;
+  top: -13em;
   left: 6em;
-  transform: rotate(210deg);
+  transform: rotate(209deg);
 }
 
 #port_three {
   position: absolute;
   top: -6em;
-  left: -4.8em;
+  left: -4.6em;
   transform: rotate(90deg);
+}
+
+#port_four {
+  position: absolute;
+  top: -12.9em;
+  left: 6.3em;
+  transform: rotate(-152deg);
 }

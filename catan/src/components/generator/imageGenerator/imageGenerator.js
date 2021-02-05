@@ -100,6 +100,7 @@ function ImageGenerator() {
             { generator.boardNumbers[5] }
           </span>
           <span class="hex-parent">
+            <span class="ports" id="port_four">{ generator.boardPorts[3] } </span>
             { generator.boardHexes[6] }
             { generator.boardNumbers[6] }
           </span>
