@@ -22,6 +22,7 @@ import robberImp from './numbers/robber.png'
 
 import threePortImp from './ports/three_port.png'
 import sheepPortImp from './ports/sheep_port.png'
+import lumberPortImp from './ports/lumber_port.png'
 
 function ImageGenerator() {
 
@@ -46,12 +47,13 @@ function ImageGenerator() {
 
   let threePort = <img src={threePortImp} alt="three to one port" class="port_img"/>
   let sheepPort = <img src={sheepPortImp} alt="sheep port" class="port_img"/>
+  let lumberPort = <img src={lumberPortImp} alt="lumber port" class="port_img"/>
 
   let hexes = [wheat, wheat, wheat, ore, ore, ore, brick, brick, brick, brick, sheep, sheep, sheep, sheep, lumber, lumber, lumber, lumber, desert]
 
   let num_imgs = [five, two, six, three, eight, ten, nine, twelve, eleven, four, eight, ten, nine, four, five, six, three, eleven]
 
-  let ports = [sheepPort, "lumber", "ore", "wheat", threePort, threePort, threePort, threePort]
+  let ports = [sheepPort, lumberPort, "ore", "wheat", threePort, threePort, threePort, threePort]
 
   let generator = new GeneratorLogic(hexes, num_imgs, ports, desert, robber)
   generator.makeMap()
