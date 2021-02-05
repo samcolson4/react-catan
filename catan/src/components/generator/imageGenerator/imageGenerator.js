@@ -68,9 +68,10 @@ function ImageGenerator() {
       <br></br>
       <br></br>
       <div id="board">
+      <span class="port_two">{ generator.boardPorts[1] } </span>
         <div class="row" id="row_one">
           <span class="hex-parent">
-          <span class="port_one">{ generator.boardPorts[0] } </span>
+            <span class="port_one">{ generator.boardPorts[0] } </span>
             { generator.boardHexes[0] } 
             { generator.boardNumbers[0] }
           </span>

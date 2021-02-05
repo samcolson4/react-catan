@@ -41,10 +41,13 @@ img {
 }
 
 .port_img {
-  height: 3em;
+  height: 5em;
   width: auto;
 }
 
 .port_one {
-
+  position: absolute;
+  top: -12.5em;
+  left: -1em;
+  transform: rotate(149deg);
 }
