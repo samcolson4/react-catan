@@ -45,9 +45,20 @@ img {
   width: auto;
 }
 
-.port_one {
+.ports {
+  position: absolute;
+}
+
+#port_one {
   position: absolute;
   top: -12.5em;
   left: -1em;
   transform: rotate(149deg);
+}
+
+#port_two {
+  position: absolute;
+  top: -12.9em;
+  left: 6em;
+  transform: rotate(210deg);
 }
