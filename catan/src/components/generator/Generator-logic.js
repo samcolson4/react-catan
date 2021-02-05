@@ -1,11 +1,13 @@
 class GeneratorLogic {
   
-  constructor(hexes, numbers, ports) {
+  constructor(hexes, numbers, ports, desert, robber) {
     this.hexes = hexes
     this.numbers = numbers
     this.ports = ports
     this.boardHexes = []
     this.boardNumbers = []
+    this.desert = desert
+    this.robber = robber
   }
 
   shuffle(array) {
@@ -30,8 +32,8 @@ class GeneratorLogic {
     this.boardNumbers = this.numbers
     this.shuffle(this.boardNumbers)
 
-    var robberIndex = this.boardHexes.indexOf("desert")
-    this.boardNumbers.splice(robberIndex, 0, "ROBBER")
+    var robberIndex = this.boardHexes.indexOf(this.desert)
+    this.boardNumbers.splice(robberIndex, 0, this.robber)
   
     return this.boardNumbers
   }
