@@ -66,9 +66,7 @@ function ImageGenerator() {
 
   return (
     <div className="Generator-images">
-      <p>Hit refresh to generate a new map.</p>
-      <br></br>
-      <br></br>
+      <br></br><br></br><br></br><br></br><br></br>
       <div id="board">
         <div class="row" id="row_one">
           <span class="hex-parent">
