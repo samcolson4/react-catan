@@ -29,20 +29,18 @@ function ImageGenerator() {
   let ore = <img src={oreImp} alt="ore" class="hex"/>
   let sheep = <img src={sheepImp} alt="sheep" class="hex"/>
 
-  let two = <img src={twoImp} class="number_img"/>
-  let three = <img src={threeImp} class="number_img"/>
-  let four = <img src={fourImp} class="number_img"/>
-  let five = <img src={fiveImp} class="number_img"/>
-  let six = <img src={sixImp} class="number_img"/>
-  let eight = <img src={eightImp} class="number_img"/>
-  let nine = <img src={nineImp} class="number_img"/>
-  let ten = <img src={tenImp} class="number_img"/>
-  let eleven = <img src={elevenImp} class="number_img"/>
-  let twelve = <img src={twelveImp} class="number_img"/>
+  let two = <img src={twoImp} alt="two" class="number_img"/>
+  let three = <img src={threeImp} alt="three" class="number_img"/>
+  let four = <img src={fourImp} alt="four" class="number_img"/>
+  let five = <img src={fiveImp} alt="five" class="number_img"/>
+  let six = <img src={sixImp} alt="six" class="number_img"/>
+  let eight = <img src={eightImp} alt="eight" class="number_img"/>
+  let nine = <img src={nineImp} alt="nine" class="number_img"/>
+  let ten = <img src={tenImp} alt="ten" class="number_img"/>
+  let eleven = <img src={elevenImp} alt="eleven" class="number_img"/>
+  let twelve = <img src={twelveImp} alt="twelve" class="number_img"/>
 
   let hexes = [wheat, wheat, wheat, ore, ore, ore, brick, brick, brick, brick, sheep, sheep, sheep, sheep, lumber, lumber, lumber, lumber, desert]
-
-  let numbers = [5, 2, 6, 3, 8, 10, 9, 12, 11, 4, 8, 10, 9, 4, 5, 6, 3, 11]
 
   let num_imgs = [five, two, six, three, eight, ten, nine, twelve, eleven, four, eight, ten, nine, four, five, six, three, eleven]
 
