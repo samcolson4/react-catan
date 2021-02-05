@@ -57,7 +57,7 @@ function ImageGenerator() {
 
   let num_imgs = [five, two, six, three, eight, ten, nine, twelve, eleven, four, eight, ten, nine, four, five, six, three, eleven]
 
-  let ports = [sheepPort, lumberPort, orePort, wheat, threePort, threePort, threePort, threePort]
+  let ports = [sheepPort, lumberPort, orePort, wheatPort, threePort, threePort, threePort, threePort]
 
   let generator = new GeneratorLogic(hexes, num_imgs, ports, desert, robber)
   generator.makeMap()
@@ -70,6 +70,7 @@ function ImageGenerator() {
       <div id="board">
         <div class="row" id="row_one">
           <span class="hex-parent">
+          <span class="port_one">{ generator.boardPorts[0] } </span>
             { generator.boardHexes[0] } 
             { generator.boardNumbers[0] }
           </span>
@@ -159,7 +160,7 @@ function ImageGenerator() {
           </span>
         </div>
       </div>
-      <br></br>
+      <br></br><br></br>
     </div>
   )}
 
