@@ -83,3 +83,10 @@ img {
   left: 10.3em;
   transform: rotate(-90deg);
 }
+
+#port_six {
+  position: absolute;
+  top: -5.6em;
+  left: -4.7em;
+  transform: rotate(90deg);
+}

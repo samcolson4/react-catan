@@ -132,6 +132,7 @@ function ImageGenerator() {
 
         <div class="row" id="row_four">
           <span class="hex-parent">
+            <span class="ports" id="port_six">{ generator.boardPorts[5] } </span>
             { generator.boardHexes[12] } 
             { generator.boardNumbers[12] }  
           </span>
