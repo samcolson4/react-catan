@@ -92,11 +92,26 @@ function ImageGenerator() {
         </div>
 
         <div class="row" id="row_three">
-            { generator.boardHexes[7] } { generator.boardNumbers[7] } 
-            { generator.boardHexes[8] } { generator.boardNumbers[8] }  
-            { generator.boardHexes[9] } { generator.boardNumbers[9] }
-            { generator.boardHexes[10] } { generator.boardNumbers[10] }
-            { generator.boardHexes[11] } { generator.boardNumbers[11] }
+          <span class="hex-parent">
+            { generator.boardHexes[7] } 
+            { generator.boardNumbers[7] }
+          </span>
+          <span class="hex-parent">
+            { generator.boardHexes[8] } 
+            { generator.boardNumbers[8] }  
+          </span>
+          <span class="hex-parent">
+            { generator.boardHexes[9] } 
+            { generator.boardNumbers[9] }
+          </span>
+          <span class="hex-parent">
+            { generator.boardHexes[10] } 
+            { generator.boardNumbers[10] }
+          </span>
+          <span class="hex-parent">
+            { generator.boardHexes[11] } 
+            { generator.boardNumbers[11] }
+          </span>
         </div>
 
         <div class="row" id="row_four">
