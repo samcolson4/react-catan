@@ -97,3 +97,10 @@ img {
   left: 6.9em;
   transform: rotate(-32deg);
 }
+
+#port_eight {
+  position: absolute;
+  top: 0.3em;
+  left: -0.6em;
+  transform: rotate(29deg);
+}
