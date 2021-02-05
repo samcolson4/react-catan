@@ -62,3 +62,10 @@ img {
   left: 6em;
   transform: rotate(210deg);
 }
+
+#port_three {
+  position: absolute;
+  top: -6em;
+  left: -4.8em;
+  transform: rotate(90deg);
+}
