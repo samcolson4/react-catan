@@ -90,3 +90,10 @@ img {
   left: -4.7em;
   transform: rotate(90deg);
 }
+
+#port_seven {
+  position: absolute;
+  top: -0em;
+  left: 6.9em;
+  transform: rotate(-32deg);
+}
