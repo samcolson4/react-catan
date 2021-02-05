@@ -73,17 +73,22 @@ function ImageGenerator() {
         </div>
         
         <div class="row" id="row_two">
+          <span class="hex-parent">
             { generator.boardHexes[3] } 
             { generator.boardNumbers[3] }
-            
+          </span>
+          <span class="hex-parent">
             { generator.boardHexes[4] } 
             { generator.boardNumbers[4] }  
-            
+          </span>
+          <span class="hex-parent">
             { generator.boardHexes[5] } 
             { generator.boardNumbers[5] }
-
+          </span>
+          <span class="hex-parent">
             { generator.boardHexes[6] }
             { generator.boardNumbers[6] }
+          </span>
         </div>
 
         <div class="row" id="row_three">
