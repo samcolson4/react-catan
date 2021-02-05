@@ -104,3 +104,10 @@ img {
   left: -0.6em;
   transform: rotate(29deg);
 }
+
+#port_nine {
+  position: absolute;
+  top: -0.1em;
+  left: 7em;
+  transform: rotate(-33deg);
+}
