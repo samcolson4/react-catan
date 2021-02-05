@@ -115,10 +115,22 @@ function ImageGenerator() {
         </div>
 
         <div class="row" id="row_four">
-            { generator.boardHexes[12] } { generator.boardNumbers[12] }  
-            { generator.boardHexes[13] } { generator.boardNumbers[13] }  
-            { generator.boardHexes[14] } { generator.boardNumbers[14] }
-            { generator.boardHexes[15] } { generator.boardNumbers[15] }
+          <span class="hex-parent">
+            { generator.boardHexes[12] } 
+            { generator.boardNumbers[12] }  
+          </span>
+          <span class="hex-parent">
+            { generator.boardHexes[13] } 
+            { generator.boardNumbers[13] }
+          </span>
+          <span class="hex-parent">
+            { generator.boardHexes[14] } 
+            { generator.boardNumbers[14] }
+          </span>
+          <span class="hex-parent">
+            { generator.boardHexes[15] } 
+            { generator.boardNumbers[15] }
+          </span>
         </div>
 
         <div class="row" id="row_five">
