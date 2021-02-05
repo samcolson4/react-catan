@@ -21,6 +21,7 @@ class GeneratorLogic {
   makeMap() {
     this.allocateHexes()
     this.allocateNumbers()
+    this.allocatePorts()
   }
 
   allocateHexes() {
