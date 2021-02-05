@@ -6,6 +6,7 @@ class GeneratorLogic {
     this.ports = ports
     this.boardHexes = []
     this.boardNumbers = []
+    this.boardPorts = []
     this.desert = desert
     this.robber = robber
   }
@@ -36,6 +37,12 @@ class GeneratorLogic {
     this.boardNumbers.splice(robberIndex, 0, this.robber)
   
     return this.boardNumbers
+  }
+
+  allocatePorts() {
+    this.boardPorts = this.ports
+    this.shuffle(this.boardPorts)
+    return this.boardPorts
   }
 
 }
