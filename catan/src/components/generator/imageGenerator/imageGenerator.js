@@ -124,6 +124,7 @@ function ImageGenerator() {
             { generator.boardNumbers[10] }
           </span>
           <span class="hex-parent">
+            <span class="ports" id="port_five">{ generator.boardPorts[4] } </span>
             { generator.boardHexes[11] } 
             { generator.boardNumbers[11] }
           </span>

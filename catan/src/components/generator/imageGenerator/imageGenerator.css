@@ -76,3 +76,10 @@ img {
   left: 6.3em;
   transform: rotate(-152deg);
 }
+
+#port_five {
+  position: absolute;
+  top: -6.5em;
+  left: 10.3em;
+  transform: rotate(-90deg);
+}
