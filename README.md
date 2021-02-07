@@ -22,6 +22,5 @@ Clone this repo, then:
 
 ```
 cd catan
-npm run
 yarn start
 ```
