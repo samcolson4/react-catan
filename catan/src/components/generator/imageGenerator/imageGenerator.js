@@ -1,4 +1,5 @@
 import GeneratorLogic from '../Generator-logic.js'
+import React from 'react'
 import './imageGenerator.css'
 
 import wheatImp from './hexes/wheat.png'
@@ -66,7 +67,13 @@ function ImageGenerator() {
 
   return (
     <div className="Generator-images">
+      
+      {/* <button onClick={ generator.makeMap }>
+        Generate
+      </button> */}
+
       <br></br><br></br><br></br><br></br><br></br>
+
       <div id="board">
         <div class="row" id="row_one">
           <span class="hex-parent">
