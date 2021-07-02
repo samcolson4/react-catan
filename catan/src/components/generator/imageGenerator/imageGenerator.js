@@ -67,10 +67,9 @@ function ImageGenerator() {
 
   return (
     <div className="Generator-images">
-      
-      {/* <button onClick={ generator.makeMap }>
-        Generate
-      </button> */}
+      <div className="generate-button">
+        <button onClick={() => window.location.reload(false)}>Generate map</button>
+      </div>
 
       <br></br><br></br><br></br><br></br><br></br>
 
