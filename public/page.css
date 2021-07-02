@@ -1,0 +1,11 @@
+body {
+  background-color: rgb(240, 236, 229);
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-bottom: 3em;
+  font-family: 'Cormorant', serif;
+}
+
+a {
+  color: black;
+}
