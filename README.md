@@ -1,5 +1,7 @@
 # react-catan
 ### A catan map generator
+[![Build Status](https://www.travis-ci.com/samcolson4/react-catan.svg?branch=main)](https://www.travis-ci.com/samcolson4/react-catan)
+
 ![Catan board](https://i.imgur.com/Io889rm.png)
 
 
